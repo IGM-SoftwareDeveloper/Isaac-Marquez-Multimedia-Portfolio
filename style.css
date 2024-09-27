@@ -152,6 +152,53 @@ section .box {
 
 
 
+.wrapper {
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.wrapp {
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.timeline-header {
+    text-align: center;
+    padding: 40px 0;
+}
+.timeline-header__h1 {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.timeline-header__h3 {
+    color: #494949;
+}
+/* Image Highlight Section */
+.image-highlight img {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======= services style ======= */
 
 .services .container {
