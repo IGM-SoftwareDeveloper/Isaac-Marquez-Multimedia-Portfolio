@@ -119,11 +119,22 @@ img {
     line-height: 28px;
     color: rgb(200, 200, 200);
     text-decoration: none;
+    position: relative; 
 }
 
-.navbar .navbar-links a:hover {
-    color: rgb(255, 255, 255);
+.navbar .navbar-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s ease;
+}
 
+.navbar .navbar-links a:hover::after {
+    width: 100%; 
 }
 
 .header {
