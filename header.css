@@ -168,7 +168,11 @@ img {
 }
 
 
-
+.btn:hover {
+    background-color: #42292c;
+    cursor: pointer;
+    transition: .9s;
+}
 
 
 
