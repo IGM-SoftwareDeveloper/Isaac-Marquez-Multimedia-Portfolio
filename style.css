@@ -179,15 +179,12 @@ section .box {
 .timeline-header__h3 {
     color: #494949;
 }
-/* Image Highlight Section */
-.image-highlight img {
-    display: block;
-    width: 100%;
-    padding-bottom: 20px;
+
+
+
+.Nikon {
+    padding: 40px;
 }
-
-
-
 
 
 
